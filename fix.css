@@ -1,0 +1,66 @@
+.memobox {
+  width: 400px;
+  height: 400px;
+  margin-left: 322px;
+  margin-top: 100px;
+
+  background: #fffdc7;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+  width: 334px;
+  height: 48px;
+  margin-left: 20px;
+  top: 361px;
+
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 48px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #999999;
+}
+
+.con {
+  position: absolute;
+  width: 292px;
+  height: 42px;
+  left: 350px;
+  top: 150px;
+
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 42px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #999999;
+}
+
+.conbox {
+  box-sizing: border-box;
+
+  width: 100px;
+  height: 30px;
+  margin-left: 150px;
+  margin-top: 300px;
+
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.conboxdiv {
+  width: 100px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 5px;
+}

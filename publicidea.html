@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="publicidea.css" />
+  </head>
+  <body>
+    <section id="title">
+      <div class="titlediv">
+        1인 가구를 위한 생활꿀팁 모음앱'000'같이 만들어 가실 분! 들어오세요🤗
+      </div>
+      <div class="line"></div>
+      <button
+        type="button"
+        class="fixBtn btn"
+        onclick="location.href='fix.html'"
+      >
+        등록
+      </button>
+    </section>
+    <section id="heartdiv">
+      <button id="countBtn" onclick="increase()">0</button>
+
+      <script>
+        //quiz 내용 : 버튼을 누를때마다 button의 innerText가 1씩 증가되게 해보세요.
+        //주의할 점!! 함수명과 변수명이 겹치면 안된다.
+        //페이지가 로딩되는 시점에 count 값을 0으로 초기화 한다.
+        var count = 0;
+        function increase() {
+          count = count + 1;
+          document.querySelector("#countBtn").innerText = count;
+        }
+      </script>
+    </section>
+    <section id="postit">
+      <div class="postit">한줄소개</div>
+    </section>
+    <script src="heart.js"></script>
+  </body>
+</html>

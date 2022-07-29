@@ -1,0 +1,45 @@
+.titlediv {
+  width: 990px;
+  height: 96px;
+  margin-left: 248px;
+  margin-top: 318px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.035em;
+
+  color: #000000;
+}
+
+.postit {
+  width: 462px;
+  height: 462px;
+  margin-left: 248px;
+  margin-top: 159px;
+
+  background: #fffdc7;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.line {
+  width: 944px;
+  height: 0px;
+  margin-left: 248px;
+  margin-top: 100px;
+
+  border: 1px solid #bbbbbb;
+}
+
+.fixBtn {
+  width: 74px;
+  height: 31px;
+  margin-left: 1116px;
+  margin-top: 0px;
+
+  border-radius: 10px;
+  border-color: #eaeaea;
+  background-color: #eaeaea;
+}

@@ -1,0 +1,131 @@
+body {
+  background-color: #fafafa;
+}
+
+.mainname {
+  margin-left: 682px;
+  width: 159px;
+  height: 48px;
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  letter-spacing: -0.01em;
+
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.menubar {
+  width: 1440px;
+  height: 45px;
+  left: 0px;
+  top: 100px;
+
+  background: #f9de9a;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.a {
+  padding: 0px 10px 0px 10px;
+}
+
+.b {
+  padding: 0px 10px 0px 10px;
+}
+
+.c {
+  padding: 0px 10px 0px 10px;
+}
+
+.d {
+  padding: 0px 10px 0px 10px;
+}
+
+.e {
+  padding: 0px 10px 0px 10px;
+}
+
+.middle {
+  display: flex;
+}
+
+.useguidekan {
+  color: #555555;
+  width: 147px;
+  height: 43px;
+  margin-top: 114px;
+  margin-left: 147px;
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.useguidekandiv {
+  padding: -2px 0px;
+  text-align: center;
+}
+
+.intro {
+  width: 261px;
+  height: 30px;
+  margin-top: 120px;
+  margin-left: 18px;
+}
+
+.slogun {
+  width: 1146px;
+  height: 144px;
+  margin-left: 147px;
+  top: 350px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(212, 245, 255, 0) 0%,
+    rgba(212, 245, 255, 0.502083) 50.31%,
+    rgba(212, 245, 255, 0) 100%
+  );
+}
+
+.slogundiv {
+  text-align: center;
+  font-weight: bold;
+  padding: 50px 0px;
+}
+
+.stepone {
+  width: 1146px;
+  height: 670px;
+  left: 147px;
+  margin-top: 32px;
+  margin-left: 147px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+.hdiv {
+  width: 539px;
+  height: 54px;
+  margin-left: 65px;
+  margin-top: 49px;
+}
+
+.steponediv {
+  width: 661px;
+  height: 84px;
+  margin-left: 242px;
+  margin-top: 165px;
+
+  font-family: "SF Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
