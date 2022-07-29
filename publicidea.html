@@ -12,6 +12,16 @@
       <div class="titlediv">
         1인 가구를 위한 생활꿀팁 모음앱'000'같이 만들어 가실 분! 들어오세요🤗
       </div>
+      <p>좋아요</p>
+      <button id="countBtn" class="count" onclick="increase()">0</button>
+
+      <script>
+        var count = 0;
+        function increase() {
+          count = count + 1;
+          document.querySelector("#countBtn").innerText = count;
+        }
+      </script>
       <div class="line"></div>
       <button
         type="button"
@@ -21,20 +31,7 @@
         등록
       </button>
     </section>
-    <section id="heartdiv">
-      <button id="countBtn" onclick="increase()">0</button>
-
-      <script>
-        //quiz 내용 : 버튼을 누를때마다 button의 innerText가 1씩 증가되게 해보세요.
-        //주의할 점!! 함수명과 변수명이 겹치면 안된다.
-        //페이지가 로딩되는 시점에 count 값을 0으로 초기화 한다.
-        var count = 0;
-        function increase() {
-          count = count + 1;
-          document.querySelector("#countBtn").innerText = count;
-        }
-      </script>
-    </section>
+    <section id="heartdiv"></section>
     <section id="postit">
       <div class="postit">한줄소개</div>
     </section>

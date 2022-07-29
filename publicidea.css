@@ -43,3 +43,10 @@
   border-color: #eaeaea;
   background-color: #eaeaea;
 }
+
+.count {
+  width: 31px;
+  height: 31px;
+  margin-left: 1116px;
+  margin-top: 10px;
+}
